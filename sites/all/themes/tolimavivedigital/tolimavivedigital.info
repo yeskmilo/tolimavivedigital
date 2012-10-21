@@ -17,6 +17,6 @@ regions[footer] = Footer
 
 stylesheets[all][] = css/style.css
 
-; Scripts =================================================================
+; Scripts =====================================================================
 
 scripts[] = js/script.js
