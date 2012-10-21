@@ -1,10 +1,11 @@
 body{
 	margin: -16px 0px 0px 0px;
-	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+	font-family: "Trebuchet MS", Verdana, Arial, sans-serif;	
 }
 
 #page-wrapper{
 	width: 100%;
+	background: #475EA3;
 }
 
 .p-header{
@@ -13,11 +14,18 @@ body{
 	height: 175px;
 }
 
-#block-block-7{
+#block-block-7,
+.p-post-header,
+#content-wrapper{
 	width: 960px;
 	margin: 0 auto;
 }
 
-#block-block-7 h2{
-	display: none;
+#quicktabs-navegacion_tolima_vive_digital{
+	overflow: hidden;
+}
+
+#search-block-form{
+	width: 200px;
+	float: right;
 }
