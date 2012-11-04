@@ -12,13 +12,14 @@ body{
 .p-header{
 	width: 100%;
 	background: url(../images/textura4.png) repeat-x center;
-	height: 160px;
+	height: 265px;
 	
 }
 
 #block-block-7,
 .p-post-header,
-#content-wrapper{
+#content-wrapper,
+#block-block-6{
 	width: 966px;
 	margin: 0 auto;
 }
@@ -32,3 +33,72 @@ body{
 	float: right;
 }
 
+#block-block-6{
+	padding-top: 14px;
+	overflow: hidden;
+}
+
+#block-block-6 .content{
+	float: right;
+}
+
+#block-block-7{
+	margin-top: -50px;
+}
+
+#quicktabs-navegacion_tolima_vive_digital .item-list li,
+#quicktabs-navegacion_tolima_vive_digital .item-list li a{
+	background: none;
+	height: 66px;
+	width: 161px;
+	padding: 0px 10px 0px 0px;
+}
+
+#quicktabs-navegacion_tolima_vive_digital .item-list ul{
+	padding: 0px;
+	background: none;
+}
+
+#quicktabs-container-navegacion_tolima_vive_digital{
+	border: none;
+}
+
+#quicktabs-navegacion_tolima_vive_digital .item-list li:hover{
+	opacity: .75; /* Standard: FF gt 1.5, Opera, Safari */
+	filter: alpha(opacity=75); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=75)"; /* IE 8 */
+	-khtml-opacity: .75; /* Safari 1.x */
+	-moz-opacity: .75; /* FF lt 1.5, Netscape */
+}
+
+.menu-1 a{
+	background: url(../images/proyectoboton.png) no-repeat center !important;
+}
+
+.menu-2 a{
+	background: url(../images/serviciosboton.png) no-repeat center !important;
+}
+
+.menu-3 a{
+	background: url(../images/ayudaboton.png) no-repeat center !important;
+}
+
+.menu-4 a{
+	background: url(../images/contactoboton.png) no-repeat center !important;
+}
+
+.menu-5 a{
+	background: url(../images/proyectoboton.png) no-repeat center !important;
+}
+
+#block-search-form{
+	position: relative;
+	width: 161px;
+	height: 66px;
+	float: right;
+	z-index: 100;
+}
+
+.quicktabs_main.quicktabs-style-excel {
+	padding-top: 70px;
+}
