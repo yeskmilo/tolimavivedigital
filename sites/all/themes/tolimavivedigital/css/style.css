@@ -12,8 +12,8 @@ body{
 .p-header{
 	width: 100%;
 	background: url(../images/textura4.png) repeat-x center;
-	height: 265px;
-	
+	height: 220px;
+	background-position: 0px 76px;	
 }
 
 #block-block-7,
@@ -43,7 +43,7 @@ body{
 }
 
 #block-block-7{
-	margin-top: -50px;
+	margin-top: -30px;
 }
 
 #quicktabs-navegacion_tolima_vive_digital .item-list li,
@@ -64,7 +64,9 @@ body{
 }
 
 #quicktabs-navegacion_tolima_vive_digital .item-list li:hover,
-#block-block-6 .content a:hover{
+#block-block-6 .content a:hover,
+.views-slideshow-controls-text-previous:hover,
+.views-slideshow-controls-text-next:hover{
 	opacity: .75; /* Standard: FF gt 1.5, Opera, Safari */
 	filter: alpha(opacity=75); /* IE lt 8 */
 	-ms-filter: "alpha(opacity=75)"; /* IE 8 */
@@ -130,7 +132,48 @@ body{
 .view-galeria-home .group-right .field-name-body{
 	overflow: hidden;
 	padding-left: 15px;
-	width: 270px;
+	width: 275px;
 	height: 325px;
 	overflow-y: auto;
+	color: #2d3f71;
+}
+
+.view-galeria-home .group-right .field-items{
+	width: 245px;
+}
+
+.views-slideshow-controls-text-previous{
+	background: url(../images/1SIG.png) no-repeat center;
+	width: 57px;
+	height: 108px;
+	display: block;
+	float: left;
+	position: absolute;
+	top: 110px;
+	z-index: 200;
+}
+
+.views-slideshow-controls-text-next{
+	background: url(../images/2SIG.png) no-repeat center;
+	width: 57px;
+	height: 108px;
+	display: block;
+	float: right;	
+	position: absolute;
+	top: 110px;
+	right: 326px;
+	z-index: 200;
+}
+
+.views-slideshow-controls-text-pause{
+	display: none;
+}
+
+#quicktabs-proyecto .item-list li{
+	width: 232px;
+	height: 79px;
+}
+
+#quicktabs-proyecto .item-list .menu-proyecto-1{
+	background: url(../images/tabs1.png) no-repeat center;
 }
