@@ -114,3 +114,23 @@ body{
 .group-right .field-label{
 	display: none;
 }
+
+.view-galeria-home .group-left{
+	width: 630px;
+}
+
+.view-galeria-home .group-right{
+	width: 291px;
+	margin-left: 15px;
+	text-align: justify;
+	height: 336px;
+	background: url(../images/fondopeque.png) repeat;
+}
+
+.view-galeria-home .group-right .field-name-body{
+	overflow: hidden;
+	padding-left: 15px;
+	width: 270px;
+	height: 325px;
+	overflow-y: auto;
+}
