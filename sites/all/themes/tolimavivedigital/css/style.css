@@ -25,11 +25,11 @@ body{
 }
 
 #quicktabs-navegacion_tolima_vive_digital{
-	overflow: hidden;
+	width: 100%;
+	/*overflow: hidden;*/
 }
 
 #search-block-form{
-	width: 200px;
 	float: right;
 }
 
@@ -102,4 +102,15 @@ body{
 
 .quicktabs_main.quicktabs-style-excel {
 	padding-top: 70px;
+}
+
+#quicktabs-navegacion_tolima_vive_digital .group-middle{
+	width: 454px;
+	padding-left: 10px;
+}
+
+.group-left .field-label,
+.group-middle .field-label,
+.group-right .field-label{
+	display: none;
 }
