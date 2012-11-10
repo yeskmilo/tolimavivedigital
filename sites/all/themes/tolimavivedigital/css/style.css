@@ -15,6 +15,28 @@ body{
 	height: 220px;
 	background-position: 0px 76px;	
 }
+#pre-footer{
+	background: url(../images/fondopeque.png) repeat;
+	height: 400px;
+	width: 100%;
+}
+
+#footer{
+	background: url(../images/fondopeque.png) repeat;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+#post-footer{
+	text-align: center;
+	color: #E5E5F0;
+	font-size: 13px;
+	height: 110px;
+	width: 100%;
+	margin: 0 auto;
+}
 
 #block-block-7,
 .p-post-header,
@@ -29,7 +51,7 @@ body{
 	/*overflow: hidden;*/
 }
 
-#search-block-form{
+#search-blvegatcion_tock-form{
 	float: right;
 }
 
@@ -52,6 +74,7 @@ body{
 	height: 66px;
 	width: 161px;
 	padding: 0px 10px 0px 0px;
+	color: #2d3f71;
 }
 
 #quicktabs-navegacion_tolima_vive_digital .item-list ul{
@@ -72,6 +95,8 @@ body{
 	-ms-filter: "alpha(opacity=75)"; /* IE 8 */
 	-khtml-opacity: .75; /* Safari 1.x */
 	-moz-opacity: .75; /* FF lt 1.5, Netscape */
+	color:#2D3F71;
+
 }
 
 .menu-1 a{
@@ -177,3 +202,79 @@ body{
 #quicktabs-proyecto .item-list .menu-proyecto-1{
 	background: url(../images/tabs1.png) no-repeat center;
 }
+
+#quicktabs-proyecto .item-list .menu-proyecto-2{
+	background: url(../images/tabs1.png) no-repeat center;
+}
+
+#quicktabs-proyecto .item-list .menu-proyecto-3{
+	background: url(../images/tabs1.png) no-repeat center;
+}
+
+#quicktabs-proyecto .item-list .menu-proyecto-4{
+	background: url(../images/tabs1.png) no-repeat center;
+}
+
+
+#quicktabs-servicios .item-list li{
+	width: 232px;
+	height: 79px;
+}
+
+#quicktabs-servicios .item-list .menu-servicios-1{
+	background: url(../images/tabs1.png) no-repeat center;
+}
+#quicktabs-servicios .item-list .menu-servicios-2{
+	background: url(../images/tabs1.png) no-repeat center;
+}
+#quicktabs-servicios .item-list .menu-servicios-3{
+	background: url(../images/tabs1.png) no-repeat center;
+}
+#quicktabs-servicios .item-list .menu-servicios-4{
+	background: url(../images/tabs1.png) no-repeat center;
+}
+#quicktabs-servicios .item-list .menu-servicios-5{
+	background: url(../images/tabs1.png) no-repeat center;
+}
+
+#quicktabs-container-servicios{
+	background: url(../images/fondopeque.png) repeat;
+	margin-left: 72px;
+	border-radius: 20px;
+	color: #2d3f71;
+	width: 70%;
+}
+
+#quicktabs-container-proyecto{
+	background: url(../images/fondopeque.png) repeat;
+	margin-left: 72px;
+	border-radius: 20px;
+	color: #2d3f71;
+	width: 70%;
+}
+
+.p-pre_footer-right{
+	width: 339px;
+	height: 42px;
+	z-index: 200;
+	margin-left: 171px;
+	margin-top: -72px;
+}
+
+.p-pre_footer-left{
+	width: 339px;
+	height: 42px;
+	z-index: 900;
+	margin-left: 900px;
+	margin-top: -37px;
+	text-align: justify;
+}
+.p-pre_footer-middle{
+	width: 339px;
+	height: 42px;
+	z-index: 400;
+	margin-left: 520px;
+	margin-top: -37px;
+	text-align: justify;
+}
+

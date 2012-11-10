@@ -1,5 +1,5 @@
 core = 7.x
-description = Tema personalizado para el portal Tollima Vive Digital.
+description = Tema personalizado para el portal Tolima Vive Digital.
 engine = phptemplate
 name = Tolima Vive Digital
 
@@ -11,7 +11,14 @@ regions[content] = Content
 regions[content_left] = Content Left
 regions[content_right] = Content Right
 regions[pre_footer] = Pre Footer
+regions[pre_footer_left] = Pre Footer Left
+regions[pre_footer_right] = Pre Footer Right
+regions[pre_footer_middle] = Pre Footer Middle
 regions[footer] = Footer
+regions[post_footer] = Post Footer
+
+
+
 
 ; Stylesheets =================================================================
 

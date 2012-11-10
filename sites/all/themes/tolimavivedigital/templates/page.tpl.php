@@ -54,11 +54,12 @@
  * Regions:
  * - regions[header] = Header
  * -regions[post_header] = Post Header
-*-regions[content] = Content
-*-regions[content_left] = Content Left
-*-regions[content_right] = Content Right
-*-regions[pre_footer] = Pre Footer
-*-regions[footer] = Footer
+ * -regions[content] = Content
+ * -regions[content_left] = Content Left
+ * -regions[content_right] = Content Right
+ * -regions[pre_footer] = Pre Footer
+ * -regions[footer] = Footer
+ * -regions[post_footer] = Post Footer
  *
  * @see template_preprocess()
  * @see template_preprocess_page()
@@ -75,9 +76,10 @@
   </div>
   <div id="content-wrapper">
     <div id="pre-content">
-      <?php print render($page['content']); ?>
+      <?php print render($page['pre_content']); ?>
     </div>
     <div id="content">
+      <?php print render($page['content']); ?>
       <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
       <?php if ($messages): ?><h1 class="title" id="page-title"><?php print $messages; ?></h1><?php endif; ?>
       <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
@@ -90,11 +92,31 @@
     </div>
   </div>
   <div id="bottom">
+    
     <div id="pre-footer">
       <?php print render($page['pre_footer']); ?>
+      <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
+      <?php if ($messages): ?><h1 class="title" id="page-title"><?php print $messages; ?></h1><?php endif; ?>
+      <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+      <div class="p-pre_footer-left">
+        <?php print render($page['pre_footer_left']); ?>
+      </div>
+      <div class="p-pre_footer-right">
+        <?php print render($page['pre_footer_right']); ?>
+      </div>
+      <div class="p-pre_footer-middle">
+        <?php print render($page['pre_footer_middle']); ?>
+      </div>
     </div>
+
+
     <div id="footer">
       <?php print render($page['footer']); ?>
     </div>
+    
+    <div id="post-footer">
+      <?php print render($page['post_footer']); ?>
+    </div>
+    
   </div>
 </div>

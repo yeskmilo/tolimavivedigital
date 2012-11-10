@@ -12,6 +12,13 @@
 			//$('a',this).text('');
 			num++;
 		});
+
+		var num = 1;
+		$("#quicktabs-servicios > .item-list li").each(function(){
+			$(this).addClass('menu-servicios-'+num);
+			//$('a',this).text('');
+			num++;
+		});
 		$('.views-slideshow-controls-text-previous a').text('');
 		$('.views-slideshow-controls-text-next a').text('');
   })
