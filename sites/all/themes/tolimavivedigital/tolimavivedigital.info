@@ -23,7 +23,10 @@ regions[post_footer] = Post Footer
 ; Stylesheets =================================================================
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/jquery.jscrollpane.css
 
 ; Scripts =====================================================================
 
 scripts[] = js/script.js
+scripts[] = js/jquery.jscrollpane.min.js
+scripts[] = js/jquery.mousewheel.js

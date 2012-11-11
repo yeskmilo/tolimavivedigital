@@ -23,11 +23,15 @@ body{
 
 #footer{
 	background: url(../images/fondopeque.png) repeat;
-	height: 100px;
+	height: 120px;
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	
+	margin-top: 4px;	
+}
+
+.region.region-footer{
+	padding-top: 1px;
 }
 #post-footer{
 	text-align: center;
@@ -58,6 +62,7 @@ body{
 #block-block-6{
 	padding-top: 14px;
 	overflow: hidden;
+
 }
 
 #block-block-6 .content{
@@ -100,23 +105,23 @@ body{
 }
 
 .menu-1 a{
-	background: url(../images/inicioboton.png) no-repeat center !important;
+	background: url(../images/home2.png) no-repeat center !important;
 }
 
 .menu-2 a{
-	background: url(../images/proyectoboton.png) no-repeat center !important;
+	background: url(../images/proyecto2.png) no-repeat center !important;
 }
 
 .menu-3 a{
-	background: url(../images/serviciosboton.png) no-repeat center !important;
+	background: url(../images/servicios2.png) no-repeat center !important;
 }
 
 .menu-4 a{
-	background: url(../images/ayudaboton.png) no-repeat center !important;
+	background: url(../images/ayuda2.png) no-repeat center !important;
 }
 
 .menu-5 a{
-	background: url(../images/contactoboton.png) no-repeat center !important;
+	background: url(../images/contacto2.png) no-repeat center !important;
 }
 
 #block-search-form{
@@ -240,7 +245,9 @@ body{
 #quicktabs-container-servicios{
 	background: url(../images/fondopeque.png) repeat;
 	margin-left: 72px;
-	border-radius: 20px;
+	-webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -khtml-border-radius:20px; 
 	color: #2d3f71;
 	width: 70%;
 }
@@ -248,7 +255,9 @@ body{
 #quicktabs-container-proyecto{
 	background: url(../images/fondopeque.png) repeat;
 	margin-left: 72px;
-	border-radius: 20px;
+	-webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -khtml-border-radius:20px; 
 	color: #2d3f71;
 	width: 70%;
 }
@@ -278,3 +287,68 @@ body{
 	text-align: justify;
 }
 
+.view-header{
+
+	background: url(../images/fondopeque.png) repeat;
+	color: #2d3f71;
+	margin-right: 10px;
+	-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius:10px; 
+	text-align: justify;
+	overflow: hidden;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.view-content{
+	color: #FFFFFF;
+}
+
+.ui-accordion-content{
+	background: url(../images/fondopeque.png) repeat;
+	color: #2d3f71;
+}
+.views-field a{
+	color: #2d3f71;
+	padding: 0px;
+	background: url(../images/flecha.png) right no-repeat;
+
+}
+.views-field {
+	color: #2d3f71;
+	padding: 0px;
+	background: url(../images/fondopeque.png) repeat;
+
+}
+
+#node-9{
+	color: #fff;
+	padding: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+.form-item label{
+	width: 80px;
+	display: inline-block;
+	*display: inline;
+	z-index: 2;
+	padding-left: 30px;
+}
+
+#edit-submitted-mensaje{
+	margin-top: 20px;
+}
+
+.form-submit{
+	background: url(../images/fondopeque.png) repeat;
+	width: 80px;
+	height: 30px;
+	-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius:10px; 
+
+}
