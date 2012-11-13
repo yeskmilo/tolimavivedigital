@@ -80,6 +80,17 @@ body{
 	width: 161px;
 	padding: 0px 10px 0px 0px;
 	color: #2d3f71;
+	line-height: 76px;
+}
+
+#quicktabs-proyecto .item-list li a{
+	width: 232px;
+	text-align: center;
+}
+
+#quicktabs-servicios .item-list li a{
+	width: 232px;
+	text-align: center;
 }
 
 #quicktabs-navegacion_tolima_vive_digital .item-list ul{
@@ -105,23 +116,23 @@ body{
 }
 
 .menu-1 a{
-	background: url(../images/home2.png) no-repeat center !important;
+	background: url(../images/inicio.png) no-repeat center !important;
 }
 
 .menu-2 a{
-	background: url(../images/proyecto2.png) no-repeat center !important;
+	background: url(../images/proyecto.png) no-repeat center !important;
 }
 
 .menu-3 a{
-	background: url(../images/servicios2.png) no-repeat center !important;
+	background: url(../images/servicios.png) no-repeat center !important;
 }
 
 .menu-4 a{
-	background: url(../images/ayuda2.png) no-repeat center !important;
+	background: url(../images/ayuda.png) no-repeat center !important;
 }
 
 .menu-5 a{
-	background: url(../images/contacto2.png) no-repeat center !important;
+	background: url(../images/contacto.png) no-repeat center !important;
 }
 
 #block-search-form{
@@ -147,16 +158,34 @@ body{
 	display: none;
 }
 
+#quicktabs-container-navegacion_tolima_vive_digital .ds-2col-stacked.node-page > .group-right {
+	width: 297px;
+	background: url(../images/fondopeque.png) repeat;
+	margin-right: 24px;
+	height: 1207px;
+}
+
+#quicktabs-container-navegacion_tolima_vive_digital .ds-2col-stacked.node-page > .group-left{
+	width:605px;
+	background: url(../images/fondopeque.png) repeat;
+	color: #2d3f71;
+	text-align: justify;
+	padding-left: 15px;
+	padding-right: 10px;
+
+}
+
 .view-galeria-home .group-left{
-	width: 630px;
+	width: 625px;
 }
 
 .view-galeria-home .group-right{
-	width: 291px;
+	width: 295px;
 	margin-left: 15px;
 	text-align: justify;
-	height: 336px;
+	height: 335px;
 	background: url(../images/fondopeque.png) repeat;
+	margin-left: 10px;
 }
 
 .view-galeria-home .group-right .field-name-body{
@@ -173,7 +202,7 @@ body{
 }
 
 .views-slideshow-controls-text-previous{
-	background: url(../images/1SIG.png) no-repeat center;
+	background: url(../images/flecha_izquierda.png) no-repeat center;
 	width: 57px;
 	height: 108px;
 	display: block;
@@ -184,7 +213,7 @@ body{
 }
 
 .views-slideshow-controls-text-next{
-	background: url(../images/2SIG.png) no-repeat center;
+	background: url(../images/flecha_derecha.png) no-repeat center;
 	width: 57px;
 	height: 108px;
 	display: block;
@@ -231,6 +260,7 @@ body{
 }
 #quicktabs-servicios .item-list .menu-servicios-2{
 	background: url(../images/tabs1.png) no-repeat center;
+	font-size: 14px;
 }
 #quicktabs-servicios .item-list .menu-servicios-3{
 	background: url(../images/tabs1.png) no-repeat center;
@@ -313,7 +343,7 @@ body{
 .views-field a{
 	color: #2d3f71;
 	padding: 0px;
-	background: url(../images/flecha.png) right no-repeat;
+	
 
 }
 .views-field {
@@ -351,4 +381,29 @@ body{
   -moz-border-radius: 10px;
   -khtml-border-radius:10px; 
 
+}
+
+.p-not-front{
+	display: none;
+}
+
+.node-proyectos-futuros .field-type-text-with-summary  {
+	background: url(../images/fondopeque.png) repeat;
+	-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius:10px; 
+  padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	text-align: justify;
+}
+
+.ui-accordion-content{
+	height: 630px;
+}
+
+.ui-accordion-content .views-field-title {
+
+	text-align: center;
+	padding-bottom: 12px;
 }

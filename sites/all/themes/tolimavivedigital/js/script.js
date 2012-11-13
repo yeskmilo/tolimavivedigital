@@ -23,6 +23,9 @@
 			$('.views-slideshow-controls-text-previous a').text('');
 			$('.views-slideshow-controls-text-next a').text('');
 			$('.view-galeria-home .group-right .field-name-body').jScrollPane();
+			if(window.location.pathname != "/tolimavivedigital/"){				
+				$('#quicktabs-tabpage-navegacion_tolima_vive_digital-0').addClass('p-not-front');
+			}
     }
   };
   /*$(document).ready(function () {
