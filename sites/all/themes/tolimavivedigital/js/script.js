@@ -26,6 +26,14 @@
 			if(window.location.pathname != "/tolimavivedigital/"){				
 				$('#quicktabs-tabpage-navegacion_tolima_vive_digital-0').addClass('p-not-front');
 			}
+			/*$('.p-pre_footer-middle .contextual-links-region .content a').click(function(){
+				$('#quicktabs-navegacion_tolima_vive_digital .item-list li a').each(function(){					
+					if($(this).attr('href') == '/tolimavivedigital/plandetecnologia?qt-navegacion_tolima_vive_digital=3#qt-navegacion_tolima_vive_digital'){
+						$(this).click();
+					}
+				});
+				return false;
+			});*/
     }
   };
   /*$(document).ready(function () {

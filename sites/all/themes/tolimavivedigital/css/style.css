@@ -399,7 +399,7 @@ body{
 }
 
 .ui-accordion-content{
-	height: 630px;
+	/*height: 630px;*/
 }
 
 .ui-accordion-content .views-field-title {
