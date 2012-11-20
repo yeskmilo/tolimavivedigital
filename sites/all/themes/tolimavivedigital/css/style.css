@@ -5,15 +5,17 @@ body{
 
 #page-wrapper{
 	width: 100%;
-	background: url(../images/textura.png) repeat;
+	background: url(../images/fondo_pantalla.png) repeat;
 
 }
+
 
 .p-header{
 	width: 100%;
 	background: url(../images/textura4.png) repeat-x center;
-	height: 220px;
+	height: 189px;
 	background-position: 0px 76px;	
+	margin-top: -22px;
 }
 #pre-footer{
 	background: url(../images/fondopeque.png) repeat;
@@ -32,6 +34,7 @@ body{
 
 .region.region-footer{
 	padding-top: 1px;
+	margin-left: 353px;
 }
 #post-footer{
 	text-align: center;
@@ -46,7 +49,7 @@ body{
 .p-post-header,
 #content-wrapper,
 #block-block-6{
-	width: 966px;
+	width: 980px;
 	margin: 0 auto;
 }
 
@@ -77,9 +80,9 @@ body{
 #quicktabs-navegacion_tolima_vive_digital .item-list li a{
 	background: none;
 	height: 66px;
-	width: 161px;
-	padding: 0px 10px 0px 0px;
-	color: #2d3f71;
+	width: 170px;
+	padding: 0px 3px 0px 0px;
+	color: #2D3F71;
 	line-height: 76px;
 }
 
@@ -113,6 +116,7 @@ body{
 	-moz-opacity: .75; /* FF lt 1.5, Netscape */
 	color:#2D3F71;
 
+
 }
 
 .menu-1 a{
@@ -145,6 +149,8 @@ body{
 
 .quicktabs_main.quicktabs-style-excel {
 	padding-top: 70px;
+	padding: 60px 0px 0px;
+
 }
 
 #quicktabs-navegacion_tolima_vive_digital .group-middle{
@@ -159,33 +165,37 @@ body{
 }
 
 #quicktabs-container-navegacion_tolima_vive_digital .ds-2col-stacked.node-page > .group-right {
-	width: 297px;
+	width: 280;
 	background: url(../images/fondopeque.png) repeat;
-	margin-right: 24px;
+	margin-right: 0px;
 	height: 1207px;
+
+	
+
+
 }
 
 #quicktabs-container-navegacion_tolima_vive_digital .ds-2col-stacked.node-page > .group-left{
-	width:605px;
+	width:640px;
 	background: url(../images/fondopeque.png) repeat;
 	color: #2d3f71;
 	text-align: justify;
-	padding-left: 15px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
 
 }
 
 .view-galeria-home .group-left{
-	width: 625px;
+	width: 700px;
 }
 
 .view-galeria-home .group-right{
-	width: 295px;
-	margin-left: 15px;
+	width: 280px;
+	margin-left: 30px;
 	text-align: justify;
-	height: 335px;
+	height: 325px;
 	background: url(../images/fondopeque.png) repeat;
-	margin-left: 10px;
+	margin-left: 0px;
 }
 
 .view-galeria-home .group-right .field-name-body{
@@ -334,6 +344,7 @@ body{
 
 .view-content{
 	color: #FFFFFF;
+	width: 980px;
 }
 
 .ui-accordion-content{
@@ -406,4 +417,8 @@ body{
 
 	text-align: center;
 	padding-bottom: 12px;
+}
+
+#views_slideshow_cycle_main_galer_a_logos_ejecutores-block{
+	text-align: center;
 }

@@ -39,9 +39,12 @@
  * @see template_preprocess_html()
  * @see template_process()
  */
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
-  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" version="XHTML+RDFa 1.0" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
+?><!DOCTYPE html PUBLIC>
+<html lang="es">
+<meta charset="UTF-8">
+<meta name="desciption" content="Proyecto Tolima Vive Digital">
+<meta name="keywords" content="tolima, vive, digital, tolimavivedigital, plan, centros, comunitarios, digitales, musicales, wifi, alerta, videoconferencia, temprana, territorios, digitales, ministerio, tic, TIC">
+
 
 <head profile="<?php print $grddl_profile; ?>">
   <meta name="viewport" content="width=1350"/>
