@@ -28,7 +28,8 @@ body{
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 4px;	
+	margin-top: 2px;
+	left:100px;	
 }
 
 .region.region-footer{
@@ -308,8 +309,8 @@ body{
 	width: 339px;
 	height: 42px;
 	z-index: 200;
-	margin-left: 171px;
-	margin-top: -72px;
+	margin-left: 185px;
+	margin-top: -58px;
 }
 
 .p-pre_footer-left{
@@ -324,8 +325,8 @@ body{
 	width: 339px;
 	height: 42px;
 	z-index: 400;
-	margin-left: 520px;
-	margin-top: -37px;
+	margin-left: 523px;
+	margin-top: -57px;
 	text-align: justify;
 }
 
@@ -347,6 +348,10 @@ body{
 .view-content{
 	color: #FFFFFF;
 	width: 980px;
+}
+
+.view-content .views-slideshow-controls-top{
+	margin-top: -15px;
 }
 
 .ui-accordion-content{
@@ -411,6 +416,17 @@ body{
 	text-align: justify;
 }
 
+.node-noticias .field-type-text-with-summary  {
+	background: url(../images/fondopeque.png) repeat;
+	-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius:10px; 
+  padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	text-align: justify;
+}
+
 .ui-accordion-content{
 	/*height: 630px;*/
 }
@@ -424,3 +440,10 @@ body{
 #views_slideshow_cycle_main_galer_a_logos_ejecutores-block{
 	text-align: center;
 }
+
+#content .region .region-content{
+	background: url(../images/fondopeque.png) repeat;
+	color: #2d3f71;
+
+}
+
